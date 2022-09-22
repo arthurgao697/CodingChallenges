@@ -18,7 +18,6 @@ For each of the N triples, output one new line which contains the second-maximum
 *Constraints*
 
 1 ≤ N ≤ 6
-
 1 ≤ every integer ≤ 10000
 
 The three integers in a single triplet are all distinct. That is, no two of them are equal.
@@ -28,19 +27,14 @@ The three integers in a single triplet are all distinct. That is, no two of them
 Input:
 
 3
-
 1 2 3
-
 10 15 5
-
 100 999 500
 
 Output:
 
 2
-
 10
-
 500
 		
 ==================================================================================================
@@ -63,7 +57,6 @@ For each test case, output a single line containing the sum of all the digit cha
 *Constraints*
 
 1 ≤ T ≤ 1000
-
 1 ≤ |S| ≤ 1000, where |S| is the length of the string S.
 
 *Example*
@@ -71,7 +64,6 @@ For each test case, output a single line containing the sum of all the digit cha
 Input:
 
 1
-
 ab1231da
 
 Output:
