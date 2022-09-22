@@ -60,15 +60,15 @@
 
 #### *Example*
 
-#####Input:
+##### Input:
 
 - 1
 - ab1231da
 
 ##### Output:
 
--7
+- 7
 
 #### *Explanation*
 
-The digits in this string are 1, 2, 3 and 1. Hence, the sum of all of them is 7.
+- The digits in this string are 1, 2, 3 and 1. Hence, the sum of all of them is 7.
