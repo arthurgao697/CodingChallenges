@@ -1,0 +1,36 @@
+
+### Challenge 1
+
+Create a function that will test if a string is a valid PIN or not via a regular expression.
+
+A valid PIN has:
+ - Exactly 4 or 6 characters.
+ - Only numeric characters (0-9).	
+ - No whitespace.
+
+Examples
+ - validate("121317") ➞ true
+ - validate("1234") ➞ true
+ - validate("45135") ➞ false
+ - validate("89abc1") ➞ false
+ - validate("900876") ➞ true
+ - validate(" 4983") ➞ false
+
+Notes	
+ - Empty strings should return false when tested.
+ 
+### Challenge 2
+
+Create a function that checks if a given integer is exactly the factorial of an integer or not. true if it is, false otherwise.
+
+Examples
+ - isFactorial(2) ➞ true
+ - // 2 = 2 * 1 = 2!
+ - isFactorial(27) ➞ false
+ - isFactorial(24) ➞ true
+ - // 24 = 4 * 3 * 2 * 1 = 4!
+
+Notes	
+ - No error handling is necessary. Inputs are all positive integers.
+ - Alternatively, you can solve this with a recursive approach.
+ 
